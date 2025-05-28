@@ -504,3 +504,103 @@ header>div>img {
 .sec4-second1 h2{
     color: #ce1212;
 }
+.sec5{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 15rem;
+    gap: 3rem;
+}
+.sec5-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.sec5-title h3{
+    color: #7f7f90;
+}
+.sec5-title h1 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+.sec5-title h1>span {
+    color: #ce1212;
+    font-weight: 100;
+    font-family: "Amatic SC", sans-serif;
+}
+.testimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border-left: 3px solid #ce1212;
+    padding-inline: 1.5rem;
+}
+.testimonial-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+.test-content1 span{
+    color: #e08282;
+    font-size: 1.5rem;
+}
+.test-content1 p {
+    width: 35rem;
+    font-style: italic;
+}
+.test-content2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.test-content2 h4{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 1.2rem;
+}
+.test-content2 P{
+    color: #999a9b;
+    font-family: "Amatic SC", sans-serif;
+}
+.test-stars i{
+    color: #ffc107;
+}
+.testi-img img {
+    width: 10rem;
+    border-radius: 50%;
+}
+.testimonial {
+  display: none;
+}
+
+.testimonial.active {
+  display: flex;
+}
+.testi-point {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #ce1212;
+}
+.sec5-carousel{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
