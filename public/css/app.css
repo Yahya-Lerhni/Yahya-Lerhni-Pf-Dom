@@ -247,3 +247,81 @@ gap: 1rem;
     width:7rem ;
     height:7rem ;
 }
+.sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 3rem;
+    gap: 1rem;
+}
+.sec2-1{
+    width: 30%;
+    background-color: #ce1212;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+.sec2-1 div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.sec2-1 h1{
+    font-size: 2rem;
+}
+.sec2-1 button{
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #d53535;
+    color: white;
+    text-align: center;
+}
+.sec2-1 button :hover{
+    background-color: white;
+    color: #ce1212;
+}
+.sec2-btn:hover{
+    background-color: white;
+    color: #ce1212;
+}
+.sec2-2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 24.4rem;
+    gap: 1rem;
+    padding: 3rem;
+}
+.sec2-2 h2{
+    text-align: center;
+    font-size: 1rem;
+}
+.sec2-2 p {
+    text-align: center;
+    width: 11.5rem;
+    color: #636669;
+}
+.sec2-2 i{
+    color: #ce1212;
+    font-size: 3rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: #ce121215;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2-2:hover i {
+    background-color: #ce1212;
+    color: white;
+}
