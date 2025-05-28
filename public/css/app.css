@@ -696,3 +696,99 @@ header>div>img {
 .dot-event.active {
     background-color: #ce1212;
 }
+.sec7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 3rem;
+    gap: 3rem;
+}
+.sec7-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.sec7-title h3{
+    color: #7f7f90;
+}
+.sec7-title h1 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+.sec7-title h1>span {
+    color: #ce1212;
+    font-weight: 100;
+    font-family: "Amatic SC", sans-serif;
+}
+.parent-chefs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.chef{
+    width: 33%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 0.5rem;
+    transition: all ease 1s;
+}
+.chef img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.chef p {
+    text-align: center;
+    width: 20rem;
+    font-size: 13px;
+    color: #636669;
+}
+.chef-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chef-title p{
+    color: #9092a9;
+}
+.svg{
+    position: absolute;
+    top: 18rem;
+}
+.chef:hover{
+    width: 33.5%;
+    height: 105vh;
+}
+.icons{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: 3rem;
+    height: 13rem;
+    border-radius: 1rem;
+    top: 1rem;
+    right: 2rem;
+    display: none;
+}
+.icons i {
+    color: #999a9b;
+    font-size: 2rem;
+}
+.chef:hover .icons{
+    display: flex;
+    align-items: center;
+}
