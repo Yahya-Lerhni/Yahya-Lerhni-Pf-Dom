@@ -604,3 +604,95 @@ header>div>img {
     flex-direction: column;
     gap: 2rem;
 }
+.sec6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    gap: 1rem;
+}
+.sec6-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.sec6-events{
+    width:30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+.sec6-events h3{
+    color: white;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 1.5rem;
+}
+.opacity1 h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #ce1212;
+    width: 4rem;
+}
+.sec6-events p{
+    color: white;
+    width: 22rem;
+}
+.opacity1{
+    background-color: rgba(0, 0, 0, 0.58);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    padding-top: 20rem;
+    padding-inline: 2rem;
+    
+}
+.events1{
+    background-image: url(../images/events-1.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+}
+.events2{
+    background-image: url(../images/events-2.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+}
+.events3{
+    background-image: url(../images/events-3.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+}
+.events4{
+    background-image: url(../images/events-4.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+}
+.event-point {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.dot-event {
+    height: 12px;
+    width: 12px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.dot-event.active {
+    background-color: #ce1212;
+}
