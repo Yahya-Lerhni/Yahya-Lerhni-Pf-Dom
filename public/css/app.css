@@ -325,3 +325,31 @@ gap: 1rem;
     background-color: #ce1212;
     color: white;
 }
+.sec3{
+    background-image: url(../images/stats-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+.opacity{
+    background-color: hsla(240, 7%, 6%, 0.5);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11rem;
+    padding-inline: 1rem;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.child h1{
+    color: white;
+    font-size: 3rem;
+}
+.child p{
+    color: #c4c2c1;
+    font-size: 1rem;
+}
