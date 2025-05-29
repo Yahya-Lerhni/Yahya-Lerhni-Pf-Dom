@@ -34,7 +34,7 @@
             <a href="">Dropdown</a>
             <a href="">contact</a>
         </div>
-        <BUtton>Connexion<i class="fa-solid fa-user-plus"></i></BUtton>
+        <BUtton id="btn-modal">Connexion<i class="fa-solid fa-user-plus"></i></BUtton>
     </nav>
     <!-- fin nav -->
     <!-- header -->
@@ -49,7 +49,7 @@
             </p>
             <div class="buttons">
                 <button class="h-btn">Book A Table</button>
-                <button class="h-btn2">
+                <button id="btn-video" class="h-btn2">
                     <i class="fa-regular fa-circle-play"></i>watch Video
                 </button>
             </div>
@@ -99,16 +99,33 @@
                     </p>
                     <div>
                         <img src="./public/images/about-2.jpg" alt="">
-                        <div class="play">
+                        <div id="play-video" class="play">
                             <i class="fa-solid fa-play"></i>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="po-fix">
-                <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi text-white bi-arrow-up-short"></i></a>
+                <a href="" id="scroll-top" class="scroll-top"><i class="bi text-white bi-arrow-up-short"></i></a>
             </div>
-            
+            <div class="sign-up">
+                <i id="btn-close" class="fa-solid fa-xmark"></i>
+                <h1>Sign up</h1>
+                <div class="inputs">
+                    <input type="text" placeholder="User Name">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                </div>
+                <button>Sign Up</button>
+            </div>
+            <div id="video-modal" class="modal-vid">
+                <div class="modal-vid-content">
+                    <i id="video-close" class="fa-solid fa-xmark video-close"></i>
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/Y7f98aduVJ8?autoplay=1"
+                        title="YouTube video" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
         </section>
         <!-- fin sec1 -->
         <!-- sec2 -->
@@ -182,14 +199,14 @@
                 </div>
                 <div class="sec4-first-2">
                     <div class="sec4-links">
-                        <a href="">Starters</a>
-                        <a href="">Breakfast</a>
-                        <a href="">Lunch</a>
-                        <a href="">Dinner</a>
+                        <a id="star">Starters</a>
+                        <a id="break">Breakfast</a>
+                        <a id="lunch">Lunch</a>
+                        <a id="dinner">Dinner</a>
                     </div>
                     <div class="title">
                         <h3>Menu</h3>
-                        <h1>STARTERS</h1>
+                        <h1 class="h1-js">STARTERS</h1>
                     </div>
                 </div>
             </div>
@@ -240,7 +257,7 @@
                 <h1>WHAT ARE THEY <span>SAYING ABOUT US</span></h1>
             </div>
             <div class="sec5-carousel">
-                <div class="testimonial active">
+                <div class="testimonial active sec5-c1">
                     <div class="testimonial-content">
                         <div class="test-content1">
                             <p><span><i class="fa-solid fa-quote-left"></i></span>
@@ -268,7 +285,7 @@
                         <img src="./public/images/testimonials-1.jpg" alt="">
                     </div>
                 </div>
-                <div class="testimonial">
+                <div class="testimonial sec5-c2">
                     <div class="testimonial-content">
                         <div class="test-content1">
                             <p><span><i class="fa-solid fa-quote-left"></i></span>
@@ -296,7 +313,7 @@
                         <img src="./public/images/testimonials-2.jpg" alt="">
                     </div>
                 </div>
-                <div class="testimonial">
+                <div class="testimonial sec5-c3">
                     <div class="testimonial-content">
                         <div class="test-content1">
                             <p><span><i class="fa-solid fa-quote-left"></i></span>
@@ -324,7 +341,7 @@
                         <img src="./public/images/testimonials-3.jpg" alt="">
                     </div>
                 </div>
-                <div class="testimonial">
+                <div class="testimonial sec5-c4">
                     <div class="testimonial-content">
                         <div class="test-content1">
                             <p><span><i class="fa-solid fa-quote-left"></i></span>
@@ -353,10 +370,10 @@
                     </div>
                 </div>
                 <div class="testi-point">
-                    <span class="dot active"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
+                    <span class="dot active dot-c1"></span>
+                    <span class="dot dot-c2"></span>
+                    <span class="dot dot-c3"></span>
+                    <span class="dot dot-c4"></span>
                 </div>
 
             </div>
@@ -408,6 +425,10 @@
                         <p>In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero
                             est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.</p>
                     </div>
+                </div>
+                <div class="sec6-buttons">
+                    <button id="prev"><i class="fa-solid fa-angle-left btn-sec6"></i></button>
+                    <button id="next"><i class="fa-solid fa-angle-right btn-sec6"></i></button>
                 </div>
             </div>
             <div class="events-point">
@@ -477,7 +498,7 @@
         </section>
         <!-- fin sec7 -->
         <!-- sec8 -->
-        <section class="main6">
+        <section class=" sec8 main6">
             <div class="main6-header">
                 <h3>BOOK A TABLE</h3>
                 <h1>Book Your <span class="highlight">Stay With Us</span></h1>
@@ -514,10 +535,10 @@
             <div class="sec9-content">
                 <img src="./public/images/gallery-1.jpg" alt="">
                 <img src="./public/images/gallery-2.jpg" alt="">
-                <img src="./public/images/gallery-3.jpg" alt="">
+                <img class="img-3" src="./public/images/gallery-3.jpg" alt="">
                 <img src="./public/images/gallery-4.jpg" alt="">
                 <img src="./public/images/gallery-5.jpg" alt="">
-                <img src="./public/images/gallery-6.jpg" alt="">
+                <img class="img-6" src="./public/images/gallery-6.jpg" alt="">
             </div>
             <div class="gallery-point">
                 <span class="dot-gallery active"></span>
