@@ -296,7 +296,24 @@ header>div>img {
     width: 7rem;
     height: 7rem;
 }
-
+.po-fix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 30rem;
+    left: 75rem;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #ce1212;
+    z-index: 99999;
+}
+.po-fix i {
+    color: white;
+    font-size: 2rem;
+}
 .sec2 {
     display: flex;
     justify-content: center;
@@ -1108,4 +1125,424 @@ footer p{
 }
 footer span{
     color: #a30e0e;
+}
+
+@media (max-width: 425px) {
+    /* Navbar */
+    nav {
+        flex-direction: column;
+        height: auto; 
+        gap: 0.5rem;
+        padding: 1rem; 
+        position: relative; 
+        box-shadow: none;
+    }
+
+    nav > h1 {
+        font-size: 2rem; 
+    }
+
+    .links {
+        flex-direction: column; 
+        gap: 0.3rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .links a {
+        font-size: 0.9rem;
+        padding: 0.5rem 0;
+    }
+
+    nav > button {
+        width: 90%; 
+        height: 45px;
+        margin-top: 1rem;
+    }
+
+    /* Header Section */
+    header {
+        flex-direction: column; 
+        gap: 2rem;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    header > div > h1 {
+        font-size: 2.2rem;
+        width: 100%; 
+    }
+
+    header > div > p {
+        font-size: 1rem; 
+        width: 100%; 
+    }
+
+    .buttons {
+        flex-direction: column; 
+        width: 100%;
+    }
+
+    .h-btn,
+    .h-btn2 {
+        width: 90%; 
+        height: 45px;
+    }
+
+    header > div > img {
+        width: 100%;
+        max-width: 250px; 
+    }
+
+    /* Section 1 - About Us */
+    .sec1 {
+        padding: 1.5rem 1rem;
+    }
+
+    .sec1-first h1 {
+        font-size: 2rem; 
+    }
+
+    .sec1-second {
+        flex-direction: column; 
+        gap: 1.5rem;
+    }
+
+    .left,
+    .right {
+        width: 100%; 
+    }
+
+    .left img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .left-book {
+        width: 100%;
+        position: static; 
+        transform: none;
+        margin-top: 1rem;
+        padding: 0.8rem;
+    }
+    
+    .left-book h1 {
+        font-size: 1.5rem;
+    }
+
+    .left-book p {
+        font-size: 1.5rem;
+    }
+
+    .play {
+        left: 11rem; 
+        top: 144rem;
+        width: 4rem; 
+        height: 4rem;
+        /* margin: 1rem auto;  */
+    }
+
+    .play i {
+        width: 3rem; 
+        height: 3rem;
+        font-size: 1.2rem;
+    }
+
+    /* Section 2 - Why Choose Yummy */
+    .sec2 {
+        flex-direction: column; 
+        padding: 1.5rem 1rem;
+        gap: 1.5rem;
+    }
+
+    .sec2-1,
+    .sec2-2 {
+        width: 100%; 
+        height: auto; 
+        padding: 1rem;
+    }
+
+    .sec2-1 h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .sec2-1 p{
+        text-align: center;
+    }
+
+    .sec2-2 h2 {
+        font-size: 0.9rem;
+    }
+
+    .sec2-2 p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Section 3 - Stats */
+    .sec3 {
+        height: auto; 
+        background-position: center;
+    }
+
+    .opacity {
+        flex-direction: column; 
+        gap: 1.5rem;
+        padding: 1.5rem 1rem;
+        height: auto; 
+    }
+
+    .child h1 {
+        font-size: 2.5rem; 
+    }
+
+    /* Section 4 - Menu */
+    .sec4 {
+        padding: 2rem 1rem;
+        gap: 1.5rem;
+    }
+
+    .sec4-first {
+        gap: 1.5rem;
+    }
+
+    .sec4-first-1 h1 {
+        font-size: 2.2rem;
+    }
+
+    .title h1 {
+        font-size: 2.2rem;
+    }
+
+    .sec4-links {
+        /* flex-direction: column;  */
+        gap: 1rem;
+    }
+
+    .sec4-links a {
+        font-size: 1.1rem;
+    }
+
+    .sec4-second {
+        flex-direction: column; 
+        gap: 1.5rem;
+    }
+
+    .sec4-second1 {
+        width: 90%; 
+        max-width: 280px;
+    }
+
+    .sec4-second1 img {
+        width: 10rem;
+    }
+
+    /* Section 5 - Testimonials */
+    .sec5 {
+        padding: 2rem 1rem;
+        gap: 2rem;
+    }
+
+    .sec5-title h1 {
+        font-size: 2.2rem;
+    }
+
+    .testimonial {
+        flex-direction: column; 
+        gap: 1rem;
+        padding-inline: 0.5rem;
+        border-left: none; 
+        text-align: center;
+    }
+
+    .testimonial-content {
+        align-items: center; 
+    }
+
+    .test-content1 p {
+        width: 100%; 
+        font-size: 0.9rem;
+    }
+
+    .testi-img img {
+        width: 8rem; 
+        height: 8rem;
+    }
+
+    /* Section 6 - Events */
+    .sec6 {
+        padding: 1.5rem 0;
+        gap: 1.5rem;
+    }
+
+    .sec6-container {
+        flex-direction: column; 
+        gap: 1.5rem;
+    }
+
+    .sec6-events {
+        width: 90%; 
+        height: 50vh; 
+    }
+
+    .sec6-events h3 {
+        font-size: 1.2rem;
+    }
+
+    .opacity1 {
+        padding-top: 5rem; 
+        padding-inline: 1rem;
+    }
+
+    /* Section 7 - Chefs */
+    .sec7 {
+        padding: 2rem 1rem;
+        gap: 2rem;
+    }
+
+    .sec7-title h1 {
+        font-size: 2.2rem;
+    }
+
+    .parent-chefs {
+        flex-direction: column; 
+        gap: 1.5rem;
+    }
+
+    .chef {
+        width: 90%; 
+        max-width: 280px;
+        height: auto; 
+        padding-bottom: 1rem;
+    }
+
+    .chef img {
+        width: 100%;
+    }
+    .svg{
+        top: 14rem;
+    }
+    .chef p {
+        width: 90%;
+    }
+
+    .chef:hover {
+        width: 90%; 
+        height: auto;
+        transform: none;
+    }
+
+    .icons {
+        display: none; 
+    }
+
+    /* Section 8 - Book a Table */
+    .main6 {
+        padding: 2rem 1rem;
+        gap: 1.5rem;
+    }
+
+    .main6-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .main6-content {
+        flex-direction: column; 
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .main6-img img {
+        max-width: 100%;
+    }
+
+    .form-row {
+        flex-direction: column; 
+        gap: 0.8rem;
+    }
+
+    .main6-form input {
+        max-width: 100%; 
+    }
+
+    .button-main6 {
+        width: 90%;
+    }
+
+    /* Section 9 - Gallery */
+    .sec9 {
+        padding: 2rem 1rem;
+        gap: 2rem;
+    }
+
+    .sec9-title h1 {
+        font-size: 2.2rem;
+    }
+
+    .sec9-content {
+        flex-direction: column;
+        gap: 1rem;
+        padding-inline: 0.5rem;
+    }
+
+    .sec9-content img {
+        width: 90%;
+        max-width: 280px;
+    }
+
+    /* Section 10 - Contact */
+    .sec10 {
+        padding: 2rem 1rem;
+        gap: 2rem;
+    }
+
+    .sec10-title h1 {
+        font-size: 2.2rem;
+    }
+
+    .sec10-map {
+        padding-inline: 0.5rem;
+    }
+
+    .sec10-map iframe {
+        height: 40vh;
+    }
+
+    .sec10-contact {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .contact {
+        width: 90%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    /* Footer */
+    footer {
+        padding: 1.5rem 1rem;
+        align-items: start;
+        gap: 1rem;
+    }
+
+    .footer-first {
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+        padding: 1rem 0;
+        border-bottom: none;
+    }
+
+    .footer-child,
+    .footer-child2 {
+        width: 100%;
+        justify-content: center;
+        align-items: start;
+        align-items: start;
+    }
+    .po-fix{
+        top: 25rem;
+        left: 23rem;
+    }
 }
