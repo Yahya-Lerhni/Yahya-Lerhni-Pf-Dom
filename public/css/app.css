@@ -60,6 +60,12 @@ nav>button {
     border-radius: 5rem;
     background-color: #ce1212;
     color: white;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+nav button:hover{
+    background-color: white;
+    color: #a30e0e;
 }
 
 header {
@@ -108,6 +114,12 @@ header>div>p {
     background-color: #ce1212;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+.h-btn:hover{
+    color: #ce1212;
+    background-color: white;
 }
 
 .h-btn2 {
@@ -123,7 +135,13 @@ header>div>p {
     justify-content: center;
     align-items: center;
     gap: 0.3rem;
+    cursor: pointer;
+    transition: all ease 1s;
 }
+.h-btn2:hover{
+    color: #ce1212;
+}
+
 
 .h-btn2>i {
     color: #ce1212;
@@ -318,6 +336,8 @@ header>div>img {
     background-color: #d53535;
     color: white;
     text-align: center;
+    cursor: pointer;
+    transition: all ease 1s;
 }
 
 .sec2-1 button :hover {
@@ -1013,4 +1033,79 @@ header>div>img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 5rem;
+    gap: 1rem;
+    background-color: #1f1f24;
+}
+.footer-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 1px #8f8f91 solid;
+    padding: 2rem 0 ;
+}
+.footer-child{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    font-size: 0.9rem;
+}
+.contact-title{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+}
+.footer-child p{
+    width: 13rem;
+}
+.footer-child i{
+    color: #a30e0e;
+    font-size: 1.5rem;
+}
+.footer-child2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+.footer-child2 h3{
+    color: white;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.footer-icons i {
+    font-size: 1rem;
+    color: #8f8f91;
+    background-color: transparent;
+    border: #8f8f91 1px solid;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.footer-icons i:hover{
+    color: #a30e0e;
+    border: #a30e0e 1px solid;
+}
+footer p{
+    color: white;
+    font-size: 0.8rem;
+}
+footer span{
+    color: #a30e0e;
 }
