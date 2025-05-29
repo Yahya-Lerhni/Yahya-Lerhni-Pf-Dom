@@ -792,3 +792,91 @@ header>div>img {
     display: flex;
     align-items: center;
 }
+.main6 {
+  padding: 4rem 2rem;
+  /* background-color: #f8f8f8; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.main6-header h3 {
+  text-align: center;
+   color: #7f7f90;
+}
+
+.main6-header h1 {
+   font-family: "Amatic SC", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+.highlight {
+  color: #ce1212;
+    font-weight: 100;
+    font-family: "Amatic SC", sans-serif;
+}
+
+.main6-content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f8f8f8;
+  border-radius: 1rem;
+}
+
+.main6-img img {
+  width: 100%;
+  max-width: 25rem;
+  border-radius: 1rem;
+}
+
+.main6-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  max-width: 35rem;
+  width: 100%;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main6-form input,
+.main6-form textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 10rem;
+  outline:2px solid #a30e0e;
+}
+
+.main6-form textarea {
+  max-width: 100%;
+}
+
+.button-main6 {
+  background-color: #ce1212;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all ease 1s;
+}
+
+.button-main6:hover {
+  background-color: #a30e0e;
+}
