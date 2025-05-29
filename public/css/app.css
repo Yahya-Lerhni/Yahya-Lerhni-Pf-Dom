@@ -610,6 +610,7 @@ header>div>img {
     align-items: center;
     padding: 3rem 0;
     gap: 1rem;
+    overflow: hidden;
 }
 .sec6-container{
     display: flex;
@@ -800,9 +801,13 @@ header>div>img {
   align-items: center;
   gap: 2rem;
 }
-
+.main6-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
 .main6-header h3 {
-  text-align: center;
    color: #7f7f90;
 }
 
@@ -879,4 +884,62 @@ header>div>img {
 
 .button-main6:hover {
   background-color: #a30e0e;
+}
+.sec9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 5rem;
+    background-color: #f8f8f8;
+    gap: 5rem;
+}
+.sec9-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.sec9-title h3{
+    color: #7f7f90;
+}
+.sec9-title h1 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+.sec9-title h1>span {
+    color: #ce1212;
+    font-weight: 100;
+    font-family: "Amatic SC", sans-serif;
+}
+.sec9-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-inline:3rem ;
+    overflow: hidden;
+}
+.sec9-content img{
+    width: 20%;
+}
+.gallery-point {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.dot-gallery {
+    height: 12px;
+    width: 12px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.dot-gallery.active {
+    background-color: #ce1212;
 }
